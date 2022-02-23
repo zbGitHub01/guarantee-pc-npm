@@ -1,0 +1,23 @@
+{
+  "name": "guarantee-ui",
+  "version": "1.0.1",
+  "description": "",
+  "main": "ui.umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "vue",
+    "status",
+    "html",
+    "ui"
+  ],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://npm.rd.com"
+  }
+
+}
