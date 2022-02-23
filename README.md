@@ -1,5 +1,6 @@
 # pubcomponents
-
+# formily为表单组件
+# ui为电子保函PC模板的部分ui组件，发票等..
 ## Project setup
 ```
 yarn install
