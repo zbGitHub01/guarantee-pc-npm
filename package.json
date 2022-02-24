@@ -5,7 +5,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "vue-cli-service build --target lib ./src/package/ui/index.js --dest pageui --name pageui"
+    "package": "vue-cli-service build --target lib ./src/package/pack/index.js --dest @guarantee --name guarantee/ui"
   },
   "dependencies": {
     "core-js": "^3.6.5",

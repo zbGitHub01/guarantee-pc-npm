@@ -276,6 +276,7 @@ export default {
       this.$refs.ruleForm.validate(valid => {
         if (valid) {
           message.success('申请开票成功');
+          this.$store.dispatch('setInvoiceInfo', this.form);
           this.$emit('confirm', this.form);
         } else {
           message.warning('请输入开票信息');
